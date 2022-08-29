@@ -13,3 +13,113 @@
  *= require_tree .
  *= require_self
  */
+
+html{
+  display: block;
+}
+
+head{
+  display: none;
+}
+
+body{
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+strong{
+  font-weight: bold;
+}
+
+p{
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+table{
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+thead{
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr{
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th{
+  padding-bottom: 5px;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+form{
+  display: block;
+  margin-top: 0em;
+}
+
+h4{
+  font-size: 13px;
+}
+
+.edit{
+  padding-right: 10px;
+  border-right: 1px solid;
+}
+
+.back{
+  padding-left: 10px;
+}
