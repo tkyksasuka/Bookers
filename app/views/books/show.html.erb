@@ -5,15 +5,15 @@
   </head>
 
   <body>
-    <p>
+    <span>
       <strong>Title:</strong>
       <%= @book.title %>
-    </p>
+    </span>
     <p>
       <strong>Body:</strong>
       <%= @book.body %>
     </p>
-    <a href = "/books/:id/edit">Edit</a>
+    <a href = "/books/#{book.id}/edit">Edit</a>
     |
     <a href = "/books">Back</a>
   </body>
