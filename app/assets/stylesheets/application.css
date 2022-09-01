@@ -16,6 +16,9 @@
 
 html{
   display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 head{
@@ -113,6 +116,7 @@ form{
 
 h4{
   font-size: 13px;
+  font-weight: normal;
 }
 
 .edit{
